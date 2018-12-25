@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>The Grove</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body>
 
@@ -11,10 +13,10 @@
 
 <div class="nav">
     <nav>
-     <span>Menu</span>
-     <span>About Us</span>
-     <span>Contact</span>
-     <span>Locations</span>
+     <span><a href="#">Menu</a></span>
+     <span><a href="#">About Us</a></span>
+     <span><a href="#">Contact</a></span>
+     <span><a href="#">Locations</a></span>
     </nav>
   </div>
 
@@ -36,32 +38,32 @@
 <div class="menu-container">
   <div class="menu-list"
     <div class="menu dinner">
-     <img src="imagehere">
+     <img src="./resources/images/dinner.jpg" alt="Dinner plate">
      <p span><a href="dinner.html">Dinner</a></p>
     </div>
 
     <div class="menu cocktails">
-     <img src="imagehere">
+     <img src="./resources/images/cocktails.jpg" alt="Cocktails plate">
       <p span><a href="cocktails.html">Cocktails</a></p>
     </div>
 
     <div class="menu dessert">
-      <img src="imagehere">
+      <img src="./resources/images/dessert.jpg" alt="Dessert plate">
       <p span><a href="dessert.html">Dessert</a></p>
     </div>
   </div>
-</div>
+
 
 <!--about section-->
 
 <div class="abt-container">
   <div class="img-box">
-    <img src="../about_us.jpg" alt="Chef setting plates">
+    <img src="./resources/images/about-us.jpg" alt="Chef setting plates">
   </div>
 
   <div class="abt-us">
     <div class="abt-header">
-      <img src="../about_us_header.png" alt="About us">
+      <img src="./resources/images/about_us_header.png" alt="About us">
     </div>
 
     <div class="abt-content">
@@ -76,7 +78,7 @@
     </div>
 
     <div class="abt-footer">
-     <img src="../about_us_bottom_header.png" alt="Floral border">
+     <img src="./resources/images/about_us_bottom_header.png" alt="Floral border">
     </div>
   </div>
 </div>
@@ -84,23 +86,23 @@
 <!--locations-->
 
 <div class="loc-container">
-  <img src="../locations_header.png" alt="Locations">
+  <img src="./resources/images/locations_header.png" alt="Locations">
 
   <div class="loc-list">
     <div class="loc-item">
 
       <div class="loc sd">
-        <img src="../san-diego.jpg" alt="San Diego">
+        <img src="./resources/images/san-diego.jpg" alt="San Diego">
         <span id="rollover">San Diego</span>
       </div>
 
       <div class="loc seattle">
-        <img src="../seattle.jpg" alt="Seattle">
+        <img src="./resources/images/seattle.jpg" alt="Seattle">
         <span id="rollover">Seattle</span>
       </div>
 
       <div class="loc port">
-        <img src="../portland.jpg" alt="Portland">
+        <img src="./resources/images/portland.jpg" alt="Portland">
         <span id="rollover">Portland</span>
       </div>
     </div>
@@ -111,7 +113,7 @@
 
 <div class="media-container">
   <div class="background-rip">
-    <img src="../bottom-rip.png">
+    <img src="./resources/images/bottom_rip.png">
   </div>
   <div class="media-list">
     <span><i class="fab fa-instagram"></i></span>
@@ -119,8 +121,25 @@
     <span><i class="fab fa-facebook-square"></i></span>
     <span><i class="fab fa-twitter-square"></i></span>
   </div>
-</div>
+ </div>
 
 </div>
+
+
+<!--footer-->
+
+<footer>
+ <div class="footer">
+   <p>&copy; 2017 The Grove. All rights reserved</p>
+ </div>
+
+ <div class="navi">
+   <nav>
+     <span><a href="#">Terms</a></span>
+     <span><a href="#">Privacy</a></span>
+   </nav>
+ </div>
+</footer>
+
   </body>
 </html>

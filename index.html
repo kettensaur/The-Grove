@@ -11,13 +11,25 @@
 
 <!--navigation-->
 
-<div class="nav">
+<div class="navigation">
+
+  <div class="desktop">
     <nav>
      <span><a href="#">Menu</a></span>
      <span><a href="#">About Us</a></span>
      <span><a href="#">Contact</a></span>
      <span><a href="#">Locations</a></span>
     </nav>
+  </div>
+
+  <div class="mobile">
+    <nav>
+      <span><a href="#">Img here</span>
+      <span><a href="#">Img here</span>
+      <span><a href="#">Img here</span>
+    </nav>
+  </div>
+
   </div>
 
 <!--main image-->
@@ -27,7 +39,7 @@
   <div class="main-container">
     <div class="main-image">
      <div class="logo">
-
+       <img src="./resources/images/grove_logo1.png" alt="The Grove">
       </div>
     </div>
 
@@ -92,19 +104,26 @@
     <div class="loc-item">
 
       <div class="loc sd">
-        <img src="./resources/images/san-diego.jpg" alt="San Diego">
-        <span id="rollover">San Diego</span>
+        <img src="./resources/images/san-diego.jpg" alt="San Diego" class="image">
+        <div class="overlay">
+          <div class="text">San Diego</div>
+        </div>
       </div>
 
       <div class="loc seattle">
-        <img src="./resources/images/seattle.jpg" alt="Seattle">
-        <span id="rollover">Seattle</span>
+        <img src="./resources/images/seattle.jpg" alt="Seattle" class="image">
+        <div class="overlay">
+          <div class="text">Seattle</div>
+        </div>
       </div>
 
       <div class="loc port">
-        <img src="./resources/images/portland.jpg" alt="Portland">
-        <span id="rollover">Portland</span>
+        <img src="./resources/images/portland.jpg" alt="Portland" class="image">
+        <div class="overlay">
+          <div class="text">Portland</div>
+        </div>
       </div>
+
     </div>
   </div>
 </div>

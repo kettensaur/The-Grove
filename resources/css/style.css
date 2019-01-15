@@ -1,0 +1,53 @@
+body {
+font-family: 'PT Serif', sans-serif;
+font-size: 18px;
+color: #4F2412;
+height: 100%;
+margin: 0;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  min-width: 100%;
+  align-items: center;
+  background-image: url('../images/light-green-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main-image {
+  background-image: url('../images/main-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-container {
+  border: 1px solid black;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  border: 1px solid black;
+  }
+
+.menu img {
+  max-width:100%;
+  height:auto;
+}

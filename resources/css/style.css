@@ -15,6 +15,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 .grove-logo {
@@ -66,7 +67,6 @@ header {
   justify-content: center;
   margin: auto;
   width: 100%;
-  border: 1px solid black;
   }
 
 .menu img {
@@ -79,16 +79,63 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  border: 1px solid black;
+  margin-bottom: 40px;
   padding: 5px;
 }
 
 .menu p {
-
+  margin: 15px;
   font-family: "Amatic SC", sans-serif;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .menu a {
   text-decoration: none;
+}
+
+.abt-container {
+  background-image: url('../images/light-green-background.jpg');
+}
+
+.abt-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-box img {
+  max-width: 950px;
+  height: auto;
+}
+
+.abt-us {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: auto;
+  width: 950px;
+}
+
+.abt-header {
+text-align: center;
+}
+.abt-header img {
+  height: 180px;
+  width: auto;
+}
+
+.abt-footer img {
+  height: 95px;
+  width: auto;
+}
+
+.abt-footer {
+  text-align: center;
+}
+
+.abt-content p {
+  margin: 20px 90px;
+  font-family: "PT serif", sans-serif;
+  color: white;
+  line-height: 45px;
 }

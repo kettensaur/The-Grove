@@ -42,8 +42,7 @@ header {
   height: 400px;
   width: auto;
   padding-top: 280px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .mobile {
@@ -58,7 +57,7 @@ header {
 .menu-img {
   display: block;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .menu-list {
@@ -70,7 +69,7 @@ header {
   }
 
 .menu img {
-  max-width:600px;
+  max-width:90%;
   height:auto;
 }
 
@@ -78,8 +77,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
   padding: 5px;
 }
 
@@ -100,7 +99,7 @@ header {
 .abt-content {
   display: flex;
   flex-direction: row;
-}
+  }
 
 .img-box img {
   max-width: 950px;
@@ -114,7 +113,7 @@ header {
   justify-content: center;
   height: auto;
   width: 950px;
-}
+  }
 
 .abt-header {
 text-align: center;
@@ -138,4 +137,41 @@ text-align: center;
   font-family: "PT serif", sans-serif;
   color: white;
   line-height: 45px;
+}
+
+.loc-container {
+  background-image: url('../images/dark-green-texture.jpg');
+  border: 1px solid black;
+}
+
+.loc-container img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.loc-list {
+  border: 1px solid black;
+}
+
+.loc-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  border: 1px solid black;
+}
+
+.loc-item img {
+  width: 90%;
+  height: auto;
+}
+
+.loc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
